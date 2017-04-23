@@ -6,7 +6,7 @@ include(TestCXXAcceptsFlag)
 include(ExternalProject)
 externalproject_add(libjpeg-turbo
                     SOURCE_DIR ${CMAKE_SOURCE_DIR}
-                    UPDATE_COMMAND autoreconf -vif
+                    UPDATE_COMMAND
                     CONFIGURE_COMMAND <SOURCE_DIR>/configure 
                       --prefix=${OUTPUT_DIR}
                       --with-jpeg8
