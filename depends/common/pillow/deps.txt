@@ -1,2 +1,4 @@
 zlib
-jpeg
+libjpeg-turbo
+freetype
+libpng
