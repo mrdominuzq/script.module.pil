@@ -1,1 +1,2 @@
-zlib jpeg
+zlib
+jpeg
