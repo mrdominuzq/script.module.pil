@@ -1,7 +1,6 @@
 project(libjpeg-turbo)
 
 cmake_minimum_required(VERSION 2.8)
-include(CheckCCompilerFlag)
 
 include(ExternalProject)
 externalproject_add(libjpeg-turbo
