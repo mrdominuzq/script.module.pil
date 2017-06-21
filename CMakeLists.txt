@@ -23,6 +23,6 @@ include_directories(${INCLUDES}
                     
 list(APPEND DEPLIBS ${pillow_LIBRARIES} ${JPEG_LIBRARIES} ${PNG_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES})
 
-build_addon(script.module.pil PILLOw DEPLIBS)
+build_addon(script.module.pil PILLOW DEPLIBS)
 
 include(CPack)
