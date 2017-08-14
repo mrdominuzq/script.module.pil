@@ -21,7 +21,7 @@ include_directories(${INCLUDES}
                     ${ZLIB_INCLUDE_DIRS}
                     ${KODI_INCLUDE_DIR})
                     
-list(APPEND DEPLIBS ${pillow_LIBRARIES} ${JPEG_LIBRARIES} ${PNG_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES})
+list(APPEND DEPLIBS ${PILLOW_LIBRARIES} ${JPEG_LIBRARIES} ${PNG_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES})
 
 build_addon(script.module.pil PILLOW DEPLIBS)
 
